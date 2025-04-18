@@ -1,0 +1,2 @@
+Address: xyz
+Private Key: without 0x

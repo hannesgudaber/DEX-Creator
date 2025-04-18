@@ -1,0 +1,19 @@
+{
+  "name": "uniswap-v2-deployer",
+  "version": "1.0.0",
+  "description": "Deploy Uniswap V2 contracts to custom chain",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "fs-extra": "^11.1.1",
+    "solc": "^0.8.19"
+  }
+}
